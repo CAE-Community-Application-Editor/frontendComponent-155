@@ -65,7 +65,7 @@ var loadSongs = function(){
     arr.forEach(function(item) {
         text += item.title + ", "
     }); 
-    document.getElementById("div_99d21").innerText = text;
+    document.getElementById("div_99d21").innerHTML = text;
     console.log(data);
   },
   function(error) {
