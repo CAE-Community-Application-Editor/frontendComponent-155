@@ -66,7 +66,6 @@ var loadSongs = function(){
         text += item.title + ", "
     }); 
     document.getElementById("p").innerText = text;
-    console.log(data); 
     console.log(data);
   },
   function(error) {
